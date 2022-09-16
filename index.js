@@ -56,3 +56,13 @@ document.addEventListener('click', event => {
    console.log('click');
 
 });
+
+/* Datas */
+let agora = new Date();
+console.log(agora.getDate());
+console.log(agora.getMonth());
+console.log(agora.getFullYear());
+console.log(agora.toLocaleDateString("pt-BR"));
+
+
+
