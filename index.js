@@ -74,3 +74,27 @@ carros.forEach(function (value, index) {
    console.log(index, value);
 })
 
+/* Teste proposto pela Aula */
+let pedro = [" código", "esporte", "música", "cozinha"];
+console.log(pedro[2]);
+
+
+
+
+/* Toda vez que um "."  for adicionado, quer dizer que tenho um objeto(método ou atributo)*/
+
+let celular = function () {
+
+   this.cor = "preto";
+
+   this.ligar = function () {
+      console.log("uma ligação");
+      return "ligando";
+
+   }
+}
+
+
+
+let objeto = new celular();
+console.log(objeto);
